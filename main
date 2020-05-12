@@ -1,0 +1,5 @@
+classe  publique principale {
+  public  static  void  main ( String [] args ) {
+    Calculatrice calculette =  new  Calculatrice ();
+  } 
+}
