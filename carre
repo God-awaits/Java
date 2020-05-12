@@ -1,0 +1,27 @@
+ classe  publique carre 
+{
+     public  static  void  main ( String [] args ) {
+ 
+         // saisir le côté du carré:
+       cote =  Utile . lireReel ( " Tapez le cote d'un carre " );
+         // Vérifier si l'entrée clavier est valide
+    catch ( NumberFormatException ne)
+    {
+    Système . dehors . println ( " Valeur incorrecte "  + ne);
+    Système . sortie ( 0 ); // Sortir dans le programme
+    }
+
+       // calculer le périmètre:
+       int   périmètre =  4  * cote;
+       // calculer la surface:  
+         surface int = cote * cote;
+       // calculer la diagonale:
+       int   diagonale =  Math . pow (cote, 2 ) +  Math . pow (cote, 2 )
+	   
+       // Afficher les informations du carré:
+	  Système . dehors . println ( " Pour un carre de cote: "  + cote);
+          Système . dehors . println ( " - le périmètre: "  + périmètre);
+          Système . dehors . println ( " - la surface: "  + surface);
+	   
+   }
+}
