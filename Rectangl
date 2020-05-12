@@ -1,0 +1,178 @@
+import  java.util.Scanner ;
+import  java.io.IOException ;
+import  java.io.BufferedReader ;
+import  java.io.InputStreamReader ;
+
+public  class  Rectangle
+ {
+     public  static  void  main ( String [] args ) {
+ 
+ 
+int largeur =  0 ;
+int longueure =  0 ;
+ 
+essayer
+{
+// Lire la longueur du rectangle au clavier
+Entrée du scanner =  nouveau  scanner ( System . In );
+ 
+Système . dehors . println ( " Veuillez taper la longueure du rectangle " );
+longueure =  Entier . parseInt (entrée . nextLine ());
+ 
+// Lire la largeur du rectangle au clavier
+Système . dehors . println ( " Veuillez taper la largeur du rectangle " );
+largeur =  Entier . parseInt (entrée . nextLine ());
+ 
+ 
+}
+// Vérifier si l'entrée clavier est valide
+catch ( NumberFormatException ne)
+{
+Système . dehors . println ( " Valeur incorrecte "  + ne);
+Système . sortie ( 0 ); // Sortir dans le programme
+}
+ 
+/ *
+* le périmètre d'un rectangle =
+* 2 * (longueure + largeur)
+* /
+ 
+int périmètre =  2  * (longueure + largeur);
+ 
+Système . dehors . println ( " Le périmètre du rectangle est "  + périmètre );
+}
+ 
+}
+int largeur =  0 ;
+int longueure =  0 ;
+ 
+essayer
+{
+// Lire la longueur du rectangle au clavier
+BufferedReader br =  nouveau  BufferedReader ( nouveau  InputStreamReader ( System . In ));
+ 
+Système . dehors . println ( " Veuillez taper la longueure du rectangle " );
+longueure =  Entier . parseInt (br . readLine ());
+ 
+// Lire la largeur du rectangle au clavier
+Système . dehors . println ( " Veuillez taper la largeur du rectangle " );
+largeur =  Entier . parseInt (br . readLine ());
+ 
+ 
+}
+// Vérifier si l'entrée clavier est valide
+catch ( NumberFormatException ne)
+{
+Système . dehors . println ( " Valeur incorrecte "  + ne);
+Système . sortie ( 0 ); // Sortir dans le programme
+}
+catch ( IOException ioex)
+{
+Système . dehors . println ( " Erreur d'entrée / Sortie: "  + ioex);
+Système . sortie ( 0 );
+}
+ 
+/ *
+* Calcul de surafce =
+* longueure * largeur
+* /
+ 
+int surface = longueure * largeur;
+ 
+Système . dehors . println ( " La surface du rectangle = "  + surface);
+}
+ 
+}
+
+int largeur =  0 ;
+int longueure =  0 ;
+ 
+essayer
+{
+// Lire la longueur du rectangle au clavier
+BufferedReader br =  nouveau  BufferedReader ( nouveau  InputStreamReader ( System . In ));
+ 
+Système . dehors . println ( " Veuillez taper la longueure du rectangle " );
+longueure =  Entier . parseInt (br . readLine ());
+ 
+// Lire la largeur du rectangle au clavier
+Système . dehors . println ( " Veuillez taper la largeur du rectangle " );
+largeur =  Entier . parseInt (br . readLine ());
+ 
+ 
+}
+// Vérifier si l'entrée clavier est valide
+catch ( NumberFormatException ne)
+{
+Système . dehors . println ( " Valeur incorrecte "  + ne);
+Système . sortie ( 0 ); // Sortir dans le programme
+}
+catch ( IOException ioex)
+{
+Système . dehors . println ( " Erreur d'entrée / Sortie: "  + ioex);
+Système . sortie ( 0 );
+}
+ 
+/ *
+* Calcul du demi périmètre =
+* longueure + largeur
+* /
+ 
+int surface = longueure + largeur;
+ 
+Système . dehors . println ( " Le demi périmètre du rectangle = "  + demi périmètre);
+}
+ 
+}
+int largeur =  0 ;
+int longueure =  0 ;
+ 
+essayer
+{
+// Lire la longueur du rectangle au clavier
+BufferedReader br =  nouveau  BufferedReader ( nouveau  InputStreamReader ( System . In ));
+ 
+Système . dehors . println ( " Veuillez taper la longueure du rectangle " );
+longueure =  Entier . parseInt (br . readLine ());
+ 
+// Lire la largeur du rectangle au clavier
+Système . dehors . println ( " Veuillez taper la largeur du rectangle " );
+largeur =  Entier . parseInt (br . readLine ());
+ 
+ 
+}
+// Vérifier si l'entrée clavier est valide
+catch ( NumberFormatException ne)
+{
+Système . dehors . println ( " Valeur incorrecte "  + ne);
+Système . sortie ( 0 ); // Sortir dans le programme
+}
+catch ( IOException ioex)
+{
+Système . dehors . println ( " Erreur d'entrée / Sortie: "  + ioex);
+Système . sortie ( 0 );
+}
+ 
+/ *
+* Calcul de la diagonale =
+* longueure ^ 2 + largeur ^ 2
+* /
+ 
+int surface =  Math . pow (longueur, 2 ) +  Math . pow (largeur, 2 );
+ 
+Système . dehors . println ( " La diagonale du rectangle = "  + diagonale);
+}
+  
+}
+// Afficher les informations du rectangle:
+Système . dehors . println ( " Veuillez taper la largeur du rectangle " );
+largeur =  Entier . parseInt (entrée . nextLine ());
+Système . dehors . println ( " Veuillez taper la longueure du rectangle " );
+longueure =  Entier . parseInt (entrée . nextLine ());
+Système . dehors . println ( " Le périmètre du rectangle est "  + périmètre );
+Système . dehors . println ( " La surface du rectangle = "  + surface);
+Système . dehors . println ( " Le demi périmètre du rectangle = "  + demi périmètre);
+Système . dehors . println ( " La diagonale du rectangle = "  + diagonale);
+}
+
+}
